@@ -1,5 +1,5 @@
--- ProColor -- Description: Simple Calculator for 3ds Max
-
+-- ProColor
+-- Description: Simple Calculator for 3ds Max
 -- Version: 0.8
 -- Author: Markaelie
 -- Created: December 30, 2014
@@ -14,7 +14,7 @@ global ProColorDialog
 try (destroyDialog ProColorDialog)catch()
 
 rollout ProColorDialog "ProColor v0.8"
-( 
+(
 	group "Random Colors"
 	(
 		radiobuttons RadRan labels:#("Geometry", "Selection", "All") across:2
@@ -22,7 +22,7 @@ rollout ProColorDialog "ProColor v0.8"
 	)
 
 	function fn_Random objs = for i in objs do i.wirecolor = random black white
-	
+
 	on DoRan pressed do
 	(
 		if RadRan.state == 1 then fn_Random geometry
@@ -39,9 +39,9 @@ rollout ProColorDialog "ProColor v0.8"
 		radiobuttons RanGray labels:#("Geometry", "Selection", "All") across:2
 		button DoGray "Generate" tooltip:"Assign to objects" width:70 height:40 align:#right
 	)
-	
+
 	function fn_Gray objs =	for i in objs do i.wirecolor = white * random 0.2 0.8
-	
+
 	on DoGray pressed do
 	(
 		if RanGray.state == 1 then fn_Gray geometry
@@ -51,35 +51,35 @@ rollout ProColorDialog "ProColor v0.8"
 			else messagebox "Please select at least one object"
 		)
 		else fn_Gray objects
-	)  
+	)
 	
 	group "Gradient"
 	(
-        colorpicker gcpl color:[32,64,122] width:77 height:25 align:#left across:2
-        colorpicker gcpr color:[100,23,23] width:77 height:25 align:#right
-    )
+		colorpicker gcpl color:[32,64,122] width:77 height:25 align:#left across:2
+		colorpicker gcpr color:[100,23,23] width:77 height:25 align:#right
+	)
 	
 	fn apply_gradient = 
 	(
-        local domain = if selection.count == 0 then objects else selection
-        local cnt = domain.count
-        if cnt >= 2 then
+		local domain = if selection.count == 0 then objects else selection
+		local cnt = domain.count
+		if cnt >= 2 then
 		(
-            local col1 = gcpl.color
-            local col2 = gcpr.color
-            local step = (col2 - col1) / (cnt - 1)
-            for i = 1 to cnt do domain[i].wireColor = col1 + (i - 1) * step
-        )
-    )
-	
-    on gcpl changed val do apply_gradient()
-    on gcpr changed val do apply_gradient()
-	
+			local col1 = gcpl.color
+			local col2 = gcpr.color
+			local step = (col2 - col1) / (cnt - 1)
+			for i = 1 to cnt do domain[i].wireColor = col1 + (i - 1) * step
+		)
+	)
+
+	on gcpl changed val do apply_gradient()
+	on gcpr changed val do apply_gradient()
+
 	group "Real Time"
 	(
 		colorpicker rtcp "" width:152 height:20 color:[38,130,118]
 	)
-	
+
 	on rtcp changed new_col do
 	(
 		if selection.count > 0 then for obj in selection do selection.wirecolor = new_col
@@ -91,7 +91,7 @@ rollout ProColorDialog "ProColor v0.8"
 		radiobuttons RadMat labels:#("Standard", "Physical") across:2
 		button convertBtn "Convert" tooltip:"Convert WireColor to Material" width:70 height:40 align:#right
 	)
-	
+
 	function fn_MatS objs =
 	(
 		for i in objs do
@@ -102,7 +102,7 @@ rollout ProColorDialog "ProColor v0.8"
 				i.material = standardMaterial showInViewport:true name: ("converted_with_ProColor_"+i.name)
 				i.material.diffuse = (myColor)
 			)
-		)				
+		)
 	)
 
 	function fn_MatP objs =
@@ -117,7 +117,7 @@ rollout ProColorDialog "ProColor v0.8"
 			)
 		)
 	)
-	
+
 	on convertBtn pressed do
 	(
 		if selection.count > 0 then
@@ -133,7 +133,7 @@ rollout ProColorDialog "ProColor v0.8"
 		radiobuttons radErase labels:#("Selection", "All") across:2
 		Button btnErase "Erase" tooltip:"Assign to objects" width:70 height:40 align:#right
 	)
-		
+
 	on btnErase pressed do
 	(
 		if radErase.state == 1 then
@@ -141,7 +141,7 @@ rollout ProColorDialog "ProColor v0.8"
 			if selection.count > 0 then $.material = undefined
 			else messagebox "Please select at least one object"
 		)
-		else 
+		else
 		(
 			if geometry.count > 0 then geometry.material = undefined
 			else messagebox "You have no geometry objects"
