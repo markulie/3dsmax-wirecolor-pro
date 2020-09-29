@@ -1,8 +1,9 @@
---ProColor
---Version: 0.8
---Author: Markaelie
---Created: December 30, 2014
---Updated: September 29, 2020
+-- ProColor -- Description: Simple Calculator for 3ds Max
+
+-- Version: 0.8
+-- Author: Markaelie
+-- Created: December 30, 2014
+-- Updated: September 29, 2020
 
 macroscript ProColorMacro
 	category:"markaelie"
