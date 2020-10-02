@@ -4,12 +4,11 @@ This repository contains 3ds Max scripts which can be used by anyone (but please
 Advanced WireColor Manager for 3ds Max
 
 ## Features
-
-- Random Gray Wirecolor
-- Random Color Wirecolor
-- Gradient Wirecolorr
-- Realtime Solid Wirecolor
-- Material Eraser
+- Randomize Wirecolor
+- Gradient Wirecolor
+- Realtime Wirecolor
+- Batch Wirecolor to Material Converter
+- Batch Material Eraser
 
 ## Install
 Unzip
