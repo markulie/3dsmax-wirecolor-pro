@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="192" height="451" src="https://github.com/markaelie/ProColor/blob/master/Various/ProColor_Blast.gif?raw=true">
+  <img width="650" height="180" src="https://github.com/markaelie/ProColor/blob/master/Various/ProColor_Blast.gif?raw=true">
 </p>
 This repository contains 3ds Max scripts which can be used by anyone (but please do give credits).
 
