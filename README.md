@@ -3,6 +3,10 @@ This repository contains 3ds Max scripts which can be used by anyone (but please
 # ProColor
 Advanced WireColor Manager for 3ds Max
 
+<p align="center">
+  <img width="192" height="451" src="https://raw.githubusercontent.com/markaelie/ProColor/master/Various/ProColor_Window.png">
+</p>
+
 ## Features
 - Randomize Wirecolor
 - Gradient Wirecolor
