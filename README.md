@@ -21,8 +21,9 @@ Advanced WireColor Manager for 3ds Max
 </p>
 
 ## Install
-Unzip
-Drag & drop in a viewport
+1. Drag the MCR file into your 3ds Max Viewport.
+2. Go to 3ds Max Menu Customize -> Customize User Interface
+3. The script can be found in category “markaelie” without quotes.
  
 
 
