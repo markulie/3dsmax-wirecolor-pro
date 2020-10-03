@@ -3,7 +3,7 @@
 </p>
 
 # ProColor
-Advanced WireColor Manager for 3ds Max
+Advanced Wirecolor Manager for 3ds Max
 
 <p align="center">
   <img width="192" height="451" src="https://raw.githubusercontent.com/markaelie/ProColor/master/Various/ProColor_Window.png">
@@ -22,7 +22,7 @@ Advanced WireColor Manager for 3ds Max
 
 ## Install
 1. Drag the MCR file into your 3ds Max Viewport.
-2. Go to 3ds Max Menu Customize -> Customize User Interface
+2. Go to 3ds Max Menu Customize -> Customize User Interface.
 3. The script can be found in category “markaelie” without quotes.
  
 
