@@ -21,13 +21,20 @@ Advanced Wirecolor Manager for 3ds Max
 </p>
 
 ## Installation
+To use it, go to
 1. Click the Scripting in the Main Menu, select Run Script...
-2. Locate and select the script and press Open
-3. Go to Customize > Customize User Interface and select the desired Tab (Toolbars, Quad, Menu)
-4. Locate the category 'markaelie'
-5. Search in the category for the name 'ProColor'
+2. Locate and select the script and press Open (or Drag and Drop in the viewport)
 
-If you encounter bugs or problems that I am not aware of, please send me yours comments.
+## To Use It
+1. Go to Customize > Customize User Interface and select the desired Tab (Toolbars, Quad, Menu)
+2. Locate the category 'markaelie'
+3. Search in the category for the name 'ProColor'
+4. Drag "ProColor" to a toolbar.
+5. Click the toolbar Buttonto open the script!
+
+
+
+If you encounter bugs or problems, please send me yours comments.
 Any suggestions are welcome.
 
 ## Changelog
