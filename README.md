@@ -20,7 +20,7 @@ Advanced Wirecolor Manager for 3ds Max
   <img width="650" height="180" src="https://github.com/markaelie/ProColor/blob/master/Various/ProColor_Gradient.jpg?raw=true">
 </p>
 
-## Installation of the macroscript:
+## Installation
 1. Click the Scripting in the Main Menu, select Run Script...
 2. Locate and select the script and press Open
 3. Go to Customize > Customize User Interface and select the desired Tab (Toolbars, Quad, Menu)
