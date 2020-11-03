@@ -21,7 +21,6 @@ Advanced Wirecolor Manager for 3ds Max
 </p>
 
 ## Installation
-To use it, go to
 1. Click the Scripting in the Main Menu, select Run Script...
 2. Locate and select the script and press Open (or Drag and Drop in the viewport)
 
@@ -33,9 +32,6 @@ To use it, go to
 5. Click the toolbar Buttonto open the script!
 
 
-
-If you encounter bugs or problems, please send me yours comments.
-Any suggestions are welcome.
 
 ## Changelog
   
@@ -67,3 +63,7 @@ __Version: 0.2 | January 2, 2015__
   
 __Version: 0.1 | December 30, 2014__  
 - Initial Release  
+
+
+If you encounter bugs or problems, please send me yours comments.
+Any suggestions are welcome.
