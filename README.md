@@ -20,12 +20,15 @@ Advanced Wirecolor Manager for 3ds Max
   <img width="650" height="180" src="https://github.com/markaelie/ProColor/blob/master/Various/ProColor_Gradient.jpg?raw=true">
 </p>
 
-## Install
-1. Drag the MCR file into your 3ds Max Viewport.
-2. Go to 3ds Max Menu Customize -> Customize User Interface.
-3. The script can be found in category “markaelie” without quotes.
- 
+## Installation of the macroscript:
+1. Click the Scripting in the Main Menu, select Run Script...
+2. Locate and select the script and press Open
+3. Go to Customize > Customize User Interface and select the desired Tab (Toolbars, Quad, Menu)
+4. Locate the category 'markaelie'
+5. Search in the category for the name 'ProColor'
 
+If you encounter bugs or problems that I am not aware of, please send me yours comments.
+Any suggestions are welcome.
 
 ## Changelog
   
