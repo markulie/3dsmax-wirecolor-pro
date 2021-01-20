@@ -10,9 +10,7 @@ Advanced Wirecolor Manager for 3ds Max
 </p>
 
 ## Features
-- Randomize Wirecolor
-- Gradient Wirecolor
-- Realtime Wirecolor
+- Randomize/Gradient/Realtime Wirecolor
 - Batch Wirecolor to Material Converter
 - Batch Material Eraser
 
