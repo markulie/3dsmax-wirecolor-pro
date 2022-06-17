@@ -27,7 +27,7 @@ Advanced Wirecolor Manager for 3ds Max
 2. Locate the category "markaelie"
 3. Search in the category for the name "ProColor"
 4. Drag "ProColor" to a toolbar.
-5. Click the toolbar button to open the script!
+5. Click the toolbar button to open the script.
 
 
 
