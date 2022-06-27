@@ -3,7 +3,7 @@
 </p>
 
 # ProColor for 3ds Max
-Advanced Wirecolor Manager for Autodesk 3ds Max
+Advanced Wirecolor Manager for Autodesk 3ds Max<br>
 Tutorial (Italian) by Marcello Pattarin: https://www.youtube.com/watch?v=j5dhfQ13YUk
 
 <p align="center">
