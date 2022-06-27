@@ -2,7 +2,7 @@
   <img width="650" height="180" src="https://github.com/markaelie/ProColor/blob/master/Various/ProColor_Blast.gif?raw=true">
 </p>
 
-# ProColor
+# ProColor for Autodesk 3ds Max
 Advanced Wirecolor Manager for 3ds Max
 
 <p align="center">
