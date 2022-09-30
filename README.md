@@ -1,12 +1,12 @@
 <p align="center">
-  <img width="650" height="180" src="https://github.com/markaelie/ProColor/blob/master/Various/ProColor_Blast.gif?raw=true">
+  <img width="650" height="180" src="https://github.com/markaelie/ProColor/blob/master/ProColor_Blast.gif?raw=true">
 </p>
 
 # ProColor for 3ds Max
 Advanced Wirecolor Manager for Autodesk 3ds Max<br>
 
 <p align="center">
-  <img width="192" height="451" src="https://raw.githubusercontent.com/markaelie/ProColor/master/Various/ProColor_Window.png">
+  <img width="192" height="451" src="https://raw.githubusercontent.com/markaelie/ProColor/master/ProColor_Window.png">
 </p>
 <a href="https://www.youtube.com/watch?v=j5dhfQ13YUk" target="-blank">Tutorial</a> (Italian) by Marcello Pattarin
 
@@ -16,7 +16,7 @@ Advanced Wirecolor Manager for Autodesk 3ds Max<br>
 - Batch Material Eraser
 
 <p align="center">
-  <img width="650" height="180" src="https://github.com/markaelie/ProColor/blob/master/Various/ProColor_Gradient.jpg?raw=true">
+  <img width="650" height="180" src="https://github.com/markaelie/ProColor/blob/master/ProColor_Gradient.jpg?raw=true">
 </p>
 
 ## Installation
