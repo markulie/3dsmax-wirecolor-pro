@@ -25,7 +25,7 @@ Advanced Wirecolor Manager for Autodesk 3ds Max by Markulie<br>
 
 ## To Use It
 1. Go to Customize > Customize User Interface and select the desired Tab (Toolbars, Quad, Menu)
-2. Locate the category "markaelie"
+2. Locate the category "markulie"
 3. Search in the category for the name "ProColor"
 4. Drag "ProColor" to a toolbar.
 5. Click the toolbar button to open the script.
