@@ -67,5 +67,4 @@ __Version: 0.1 | December 30, 2014__
 - Initial Release  
 
 
-If you encounter bugs or problems, please send me yours comments.
 Any suggestions are welcome.
