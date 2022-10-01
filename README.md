@@ -33,7 +33,10 @@ Advanced Wirecolor Manager for Autodesk 3ds Max<br>
 
 
 ## Changelog
-  
+
+__Version: 0.9 | October 1, 2023__
+- Cleaning Garbage Memory before initialization  
+
 __Version: 0.8 | September 29, 2020__
 - ProColor is now Macroscript  
 - Batch Converting Wirecolor to Material  

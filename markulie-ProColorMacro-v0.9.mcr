@@ -3,7 +3,7 @@
 -- Version: 0.8
 -- Author: Markulie
 -- Created: December 30, 2014
--- Updated: September 29, 2020
+-- Updated: October 1, 2023
 
 
 macroscript ProColorMacro
@@ -14,7 +14,8 @@ macroscript ProColorMacro
 global ProColorDialog
 try (destroyDialog ProColorDialog)catch()
 
-rollout ProColorDialog "ProColor v0.8"
+gc()
+rollout ProColorDialog "ProColor v0.9"
 (
     group "Random Colors"
     (
