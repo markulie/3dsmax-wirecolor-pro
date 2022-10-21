@@ -34,7 +34,7 @@ Advanced Wirecolor Manager for Autodesk 3ds Max by Markulie<br>
 
 ## Changelog
 
-```c#
+```html
 __Version: 1.01 | October 21, 2022__
 - Added Pastel Colors Palette  
 - Fixed Viewport's Auto Redraw  
