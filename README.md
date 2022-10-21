@@ -6,7 +6,7 @@
 Advanced Wirecolor Manager for Autodesk 3ds Max by Markulie<br>
 
 <p align="center">
-  <img width="192" height="451" src="https://raw.githubusercontent.com/markulie/ProColor/master/ProColor_Window.png">
+  <img width="192" height="395" src="https://raw.githubusercontent.com/markulie/ProColor/master/ProColor_Window.png">
 </p>
 <a href="https://www.youtube.com/watch?v=j5dhfQ13YUk" target="-blank">Tutorial</a> (Italian) by Marcello Pattarin
 
