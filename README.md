@@ -34,8 +34,11 @@ Advanced Wirecolor Manager for Autodesk 3ds Max by Markulie<br>
 
 ## Changelog
 
-__Version: 0.9 | October 1, 2023__
+__Version: 1.01 | October 21, 2022__
+- Added Pastel Color Palette  
+- Fixed Viewport's Auto Redraw  
 - Cleaning Memory before initialization  
+- Bug Fixes  
 
 __Version: 0.8 | September 29, 2020__
 - ProColor is now Macroscript  
