@@ -4,7 +4,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/markulie/WireColorPro?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/markulie/WireColorPro?style=social)
 
-WireColor Pro: Streamlined object color randomization, instance sync, gradients, and material control for 3ds Max.
+WireColor Pro: Object color randomization, instance sync, gradients, and material control for 3ds Max.
 <p align="center">
   <img width="650" height="180" src="https://github.com/markulie/ProColor/blob/master/ProColor_Blast.gif?raw=true">
 </p>
