@@ -111,4 +111,4 @@ This project is licensed under the [MIT License](LICENSE), which means you're fr
 
 ---
 
-Any suggestions are welcome.
+*Any suggestions are welcome.*
