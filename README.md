@@ -19,18 +19,7 @@ WireColor Pro: Streamlined object color randomization, instance sync, gradients,
 
 ## Introduction
 
-
-
-
-
-
-
-
-
-
-
-
-<p align="left">
+<p align="center">
   <img width="192" height="395" src="https://raw.githubusercontent.com/markulie/ProColor/master/ProColor_Window.png">
 </p>
 
@@ -63,7 +52,7 @@ WireColor Pro: Streamlined object color randomization, instance sync, gradients,
 </p>
 
 ## Usage
-** Installation**
+**Installation**
 1. Click the Scripting in the Main Menu, select Run Script...
 2. Locate and select the script and press Open (or drag and drop the script into a viewport).
 
