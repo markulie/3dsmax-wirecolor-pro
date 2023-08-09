@@ -61,12 +61,13 @@ WireColor Pro: Streamlined object color randomization, instance sync, gradients,
 <p align="center">
   <img width="650" height="180" src="https://github.com/markulie/ProColor/blob/master/ProColor_Gradient.jpg?raw=true">
 </p>
+
 ## Usage
-### Installation
+** Installation**
 1. Click the Scripting in the Main Menu, select Run Script...
 2. Locate and select the script and press Open (or drag and drop the script into a viewport).
 
-### How to use it
+**How to use it**
 1. Go to Customize > Customize User Interface and select the desired Tab (Toolbars, Quad, Menu)
 2. Locate the category "markulie"
 3. Search in the category for the name "ProColor"
