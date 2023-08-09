@@ -105,51 +105,6 @@ Version: 0.1 | December 30, 2014
 
 ```
 
-
-
-Certainly! Here's your changelog reformatted:
-
-## Changelog
-
-### Version 1.01 | October 21, 2022
-- Added Pastel Colors Palette
-- Fixed Viewport's Auto Redraw
-- Cleaned Memory before initialization
-- Bug Fixes
-
-### Version 0.8 | September 29, 2020
-- ProColor is now Macroscript
-- Batch Converting Wirecolor to Material
-- Bug Fixes
-
-### Version 0.7 | March 27, 2016
-- Added Convert Wirecolor to Material Diffuse/BaseColor
-- Bug Fixes
-
-### Version 0.6 | June 21, 2015
-- Improved Remove Materials from object
-- Removed useless gray wirecolor assignment
-
-### Version 0.5 | April 19, 2015
-- Bug Fixes
-
-### Version 0.4 | April 1, 2015
-- Added Remove Materials from object
-- Bug Fixes
-
-### Version 0.3 | January 19, 2015
-- Bug Fixes
-
-### Version 0.2 | January 2, 2015
-- Bug Fixes
-
-### Version 0.1 | December 30, 2014
-- Initial Release
-
-I've organized the version information, dates, and changes to make it more readable and consistent.
-
-
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE), which means you're free to use, modify, and distribute the scripts. However, please note that the scripts are provided as-is, and contributors are not responsible for any issues that may arise from their usage.
