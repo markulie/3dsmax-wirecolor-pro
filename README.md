@@ -20,7 +20,7 @@ WireColor Pro: Object color randomization, instance sync, gradients, and materia
 ## Introduction
 
 <p align="center">
-  <img width="192" height="400" src="https://raw.githubusercontent.com/markulie/WireColorPro/master/WireColor_Pro_Window.png">
+  <img width="192" height="400" src="https://raw.githubusercontent.com/markulie/WireColorPro/master/WireColor_Pro_Window.jpg">
 </p>
 
 
