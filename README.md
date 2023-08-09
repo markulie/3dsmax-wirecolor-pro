@@ -1,14 +1,38 @@
+# # WireColor Pro
+
+![GitHub repo size](https://img.shields.io/github/repo-size/markulie/WireColorPro)
+![GitHub stars](https://img.shields.io/github/stars/markulie/WireColorPro?style=social)
+![GitHub forks](https://img.shields.io/github/forks/markulie/WireColorPro?style=social)
+
+WireColor Pro: Streamlined object color randomization, instance sync, gradients, and material control for 3ds Max.
 <p align="center">
   <img width="650" height="180" src="https://github.com/markulie/ProColor/blob/master/ProColor_Blast.gif?raw=true">
 </p>
 
-# WireColor Pro
-Advanced Wirecolor Manager for Autodesk 3ds Max by Markulie<br>
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Usage](#usage)
+- [License](#license)
+
+## Introduction
+
+
+
+
+
+
+
+
+
+
+
 
 <p align="center">
   <img width="192" height="395" src="https://raw.githubusercontent.com/markulie/ProColor/master/ProColor_Window.png">
 </p>
-<a href="https://www.youtube.com/watch?v=j5dhfQ13YUk" target="-blank">Tutorial</a> (Italian) by Marcello Pattarin
+
 
 "WireColor Pro" is a powerful script designed for Autodesk 3ds Max that enhances the workflow of 3D designers and artists by providing advanced tools for manipulating object colors, materials, and instances within a scene. This versatile script offers a range of features aimed at streamlining the colorization and materialization process for objects, groups, and instances.
 
@@ -31,10 +55,7 @@ Advanced Wirecolor Manager for Autodesk 3ds Max by Markulie<br>
 "WireColor Pro" revolutionizes the way 3D designers work with object colors and materials in Autodesk 3ds Max. By providing a comprehensive suite of tools for randomization, palette-based colorization, material conversion, batch material management, and instance color synchronization, this script empowers designers to achieve stunning visual results with greater efficiency and creative freedom. Whether working on architectural visualizations, product renderings, or animation projects, "WireColor Pro" is an indispensable asset that simplifies the process of color and material manipulation while enhancing the quality of the final output.
 
 
-## Features
-- Randomize/Gradient/Realtime Wirecolor
-- Batch Wirecolor to Material Converter
-- Batch Material Eraser
+<a href="https://www.youtube.com/watch?v=j5dhfQ13YUk" target="-blank">Tutorial</a> (Italian) by Marcello Pattarin
 
 <p align="center">
   <img width="650" height="180" src="https://github.com/markulie/ProColor/blob/master/ProColor_Gradient.jpg?raw=true">
