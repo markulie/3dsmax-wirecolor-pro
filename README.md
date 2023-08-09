@@ -34,16 +34,15 @@ WireColor Pro: Streamlined object color randomization, instance sync, gradients,
 
 3. **Group Colorization:** Beyond individual objects, designers can apply random colors to entire object groups, enhancing the ability to create organized and visually appealing scenes.
 
-4. **Material Conversion:** WireColor Pro provides the capability to convert object colors into material colors. Users can choose between physical and standard materials, enabling them to seamlessly integrate color and material attributes.
+4. **Instance Color Sync:** Designers can opt to synchronize colors across instances, ensuring consistency and uniformity in scenes that utilize object duplication.
 
-5. **Batch Material Removal:** The script streamlines the process of removing materials from multiple objects at once. This feature simplifies the cleanup of scenes and facilitates experimentation with different material options.
+5. **Gradient Colorization:** The script introduces the ability to set gradient colors between selected objects. This allows for smooth transitions between colors, enhancing the visual flow of scenes.
 
-6. **Instance Color Sync:** Designers can opt to synchronize colors across instances, ensuring consistency and uniformity in scenes that utilize object duplication.
+6. **Material Conversion:** WireColor Pro provides the capability to convert object colors into material colors. Users can choose between physical and standard materials, enabling them to seamlessly integrate color and material attributes.
 
-7. **Gradient Colorization:** The script introduces the ability to set gradient colors between selected objects. This allows for smooth transitions between colors, enhancing the visual flow of scenes.
+7. **Batch Material Removal:** The script streamlines the process of removing materials from multiple objects at once. This feature simplifies the cleanup of scenes and facilitates experimentation with different material options.
 
 "WireColor Pro" revolutionizes the way 3D designers work with object colors and materials in Autodesk 3ds Max. By providing a comprehensive suite of tools for randomization, palette-based colorization, material conversion, batch material management, and instance color synchronization, this script empowers designers to achieve stunning visual results with greater efficiency and creative freedom. Whether working on architectural visualizations, product renderings, or animation projects, "WireColor Pro" is an indispensable asset that simplifies the process of color and material manipulation while enhancing the quality of the final output.
-
 
 <a href="https://www.youtube.com/watch?v=j5dhfQ13YUk" target="-blank">Tutorial</a> (Italian) by Marcello Pattarin
 
