@@ -1,4 +1,4 @@
-# # WireColor Pro
+# WireColor Pro
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/markulie/WireColorPro)
 ![GitHub stars](https://img.shields.io/github/stars/markulie/WireColorPro?style=social)
@@ -112,5 +112,12 @@ __Version: 0.2 | January 2, 2015__
 __Version: 0.1 | December 30, 2014__  
 - Initial Release  
 ```
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE), which means you're free to use, modify, and distribute the scripts. However, please note that the scripts are provided as-is, and contributors are not responsible for any issues that may arise from their usage.
+
+---
 
 Any suggestions are welcome.
