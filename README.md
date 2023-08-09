@@ -68,7 +68,7 @@ WireColor Pro: Streamlined object color randomization, instance sync, gradients,
 ## Changelog
 
 ```html
-<b>Version: 1.01 | October 21, 2022</b>
+<bold>Version: 1.01 | October 21, 2022</bold>
 - Added Pastel Colors Palette  
 - Fixed Viewport's Auto Redraw  
 - Cleaning Memory before initialization  
