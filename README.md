@@ -6,7 +6,7 @@
 
 WireColor Pro: Object color randomization, instance sync, gradients, and material control for 3ds Max.
 <p align="center">
-  <img width="650" height="180" src="https://github.com/markulieWireColorPro/blob/master/WireColor_Pro_Blast.gif?raw=true">
+  <img width="650" height="180" src="https://github.com/markulie/WireColorPro/blob/master/WireColor_Pro_Blast.gif?raw=true">
 </p>
 
 ## Table of Contents
