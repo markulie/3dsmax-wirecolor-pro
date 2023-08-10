@@ -21,7 +21,7 @@ Object color randomization, instance sync, gradients, and material control for 3
   <img width="192" height="400" src="https://raw.githubusercontent.com/markulie/WireColorPro/master/WireColor_Pro_Window.jpg">
 </p>
 
-##Introduction
+## Introduction
 
 "WireColor Pro" (ex "ProColor") is a powerful script designed for Autodesk 3ds Max that enhances the workflow of 3D designers and artists by providing advanced tools for manipulating object colors, materials, and instances within a scene. This versatile script offers a range of features aimed at streamlining the colorization and materialization process for objects, groups, and instances.
 
