@@ -58,7 +58,7 @@ Object color randomization, instance sync, gradients, and material control for 3
 ## Usage
 **Installation**
 1. Click the Scripting in the Main Menu, select Run Script...
-2. Locate and select the script markulie-WireColorProMacro.mcr and press Open (or drag and drop the script into a viewport).
+2. Locate and select the script "markulie-WireColorProMacro.mcr" and press Open (or drag and drop the script into a viewport).
 
 **How to use it**
 1. Go to Customize > Customize User Interface and select the desired Tab (Toolbars, Quad, Menu)
