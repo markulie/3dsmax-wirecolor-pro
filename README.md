@@ -138,7 +138,7 @@ This project is licensed under the [MIT License](LICENSE), which means you're fr
 
 ## Download
 <a href="https://raw.githubusercontent.com/markulie/WireColorPro/master/markulie-WireColorProMacro.mcr" download>Download the latest version here</a>
-
+<a href="https://raw.githubusercontent.com/markulie/WireColorPro/master/markulie-WireColorProMacro.mcr" download="markulie-WireColorProMacro.mcr">Download .mcr File</a>
 ---
 
 *Any suggestions are welcome.*
