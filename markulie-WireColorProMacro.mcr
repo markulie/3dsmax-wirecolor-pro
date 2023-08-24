@@ -244,7 +244,7 @@ toolTip:"WireColor Pro | Advanced WireColor Tool"
 				if superClassOf i == geometryClass then  
 				(  
 					newColor = i.wireColor  
-					i.material = standardMaterial showInViewport:true name:  ( "Converted w/ WireColor Pro - " + i.name )  
+					i.material = standardMaterial showInViewport:true name:  ( "WireColor Pro - " + i.name )  
 					i.material.diffuse = newColor  
 				)  
 			)  
@@ -258,7 +258,7 @@ toolTip:"WireColor Pro | Advanced WireColor Tool"
 				if superClassOf i == geometryClass then  
 				(  
 					newColor = i.wireColor  
-					i.material = physicalMaterial showInViewport:true name:  ( "Converted w/ WireColor Pro - " + i.name )  
+					i.material = physicalMaterial showInViewport:true name:  ( "WireColor Pro - " + i.name )  
 					i.material.Base_Color = newColor  
 				)  
 			)  
