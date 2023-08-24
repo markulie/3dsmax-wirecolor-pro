@@ -137,8 +137,8 @@ Sergey Gromoff
 This project is licensed under the [MIT License](LICENSE), which means you're free to use, modify, and distribute the scripts. However, please note that the scripts are provided as-is, and contributors are not responsible for any issues that may arise from their usage.
 
 ## Download
-<a href="https://raw.githubusercontent.com/markulie/WireColorPro/master/markulie-WireColorProMacro.mcr" download>Download the latest version here</a>
-<a href="https://raw.githubusercontent.com/markulie/WireColorPro/master/markulie-WireColorProMacro.mcr" download="markulie-WireColorProMacro.mcr">Download .mcr File</a>
+[Download the newest release from this link.](https://raw.githubusercontent.com/markulie/WireColorPro/master/markulie-WireColorProMacro.mcr)
+
 ---
 
 *Any suggestions are welcome.*
