@@ -6,10 +6,11 @@ toolTip:"WireColor Pro | Advanced WireColor Tool"
 -- WireColor Pro
 -- Author: markulie
 -- Description: Object color randomization, instance sync, gradients, and material control for 3ds Max.
--- Version: 1.23
+-- Version: 1.24
 -- Created: December 30, 2014
--- Updated: August 10, 2023
+-- Updated: August 24, 2023
 -- Website: https://markulie.guthub.io
+-- Download: https://github.com/markulie/WireColorPro
 
 (  
 	global WireColorProDialog  
@@ -17,14 +18,14 @@ toolTip:"WireColor Pro | Advanced WireColor Tool"
 
 	gc()   
 
-	rollout WireColorProDialog "WireColor Pro v1.23"  
+	rollout WireColorProDialog "WireColor Pro v1.24"  
 	(  
 		-- WireColor Randomizer               
 
-		group "Random WireColor"  
+		group "Object                   Color"  
 		(  
-			radiobuttons radColor labels:#( "Pastel", "Gray", "Random" ) across:2  
-			radiobuttons radObject labels:#( "All Geometry", "All Objects", "By Group", "Selected" )  
+			radiobuttons radObject labels:#( "All Geometry", "All Shapes", "All Groups", "All Objects", "Selection" ) across:2  			  
+			radiobuttons radColor labels:#( "Pastel", "Gray", "Toxic" , "Clay", "Random") 
 			checkButton chkIsInstance "Instance" tooltip:"When enabled, it will maintain consistent colors across instances." height:  30 align:#left across:2  
 			button btnRandom "Randomize" tooltip:"Press to assign to objects" width:  90 height:  30 align:#right  
 		)  
@@ -44,6 +45,16 @@ toolTip:"WireColor Pro | Advanced WireColor Tool"
 			)  
 			else if radColor.state == 3 then  
 			(  
+				randomColor.hue = random 0 255  
+				randomColor.saturation = 255  
+			)
+			else if radColor.state == 4 then  
+			(  	
+				local r = random 5 30	
+				randomColor = color (r*6) (r*2) r
+			)  
+			else if radColor.state == 5 then  
+			(  
 				randomColor = random black white  
 			)  
 			return randomColor  
@@ -51,75 +62,11 @@ toolTip:"WireColor Pro | Advanced WireColor Tool"
 
 		on btnRandom pressed do  
 		(  
-			if radObject.state == 1 then  
-			(  
-				for i in geometry do  
+			with undo on
+			(	
+				if radObject.state == 1 then  
 				(  
-					InstanceMgr.GetInstances i &instArray  
-					if chkIsInstance.checked then  
-					(  
-						instArray.wirecolor = getRandomColor()   
-					)  
-					else  
-					(  
-						i.wirecolor = getRandomColor()   
-					)  
-				)  
-			)  
-			else if radObject.state == 2 then  
-			(  
-				for i in objects do  
-				(  
-					InstanceMgr.GetInstances i &instArray  
-					if chkIsInstance.checked then  
-					(  
-						instArray.wirecolor = getRandomColor()   
-					)  
-					else  
-					(  
-						i.wirecolor = getRandomColor()   
-					)  
-				)  
-			)  
-			else if radObject.state == 3 then  
-			(  
-				allGroups = for obj in objects where isGroupHead obj collect obj  
-				if allGroups.count == 0 then  
-				(  
-					messageBox "There are no groups in the scene."  
-				)  
-				else  
-				(  
-					fn changeWireColorRandom group =  
-					(  
-						local randomColor = getRandomColor()   
-
-						for i in group do  
-						(  
-							InstanceMgr.GetInstances i &instArray  
-							if chkIsInstance.checked then  
-							(  
-								instArray.wirecolor = randomColor  
-							)  
-							else  
-							(  
-								i.wirecolor = randomColor  
-							)  
-						)  
-					)  
-
-					for group in allGroups do  
-					(  
-						changeWireColorRandom group  
-					)  
-				)  
-			)  
-			else if radObject.state == 4 then  
-			(  
-				if selection.count < 1 then messagebox "Please select at least one object"  
-				else  
-				(  
-					for i in selection do  
+					for i in geometry do  
 					(  
 						InstanceMgr.GetInstances i &instArray  
 						if chkIsInstance.checked then  
@@ -131,8 +78,97 @@ toolTip:"WireColor Pro | Advanced WireColor Tool"
 							i.wirecolor = getRandomColor()   
 						)  
 					)  
-				)  
-			)  
+				) 
+				else if radObject.state == 2 then  
+				(  
+					for i in shapes do  
+					(  
+						InstanceMgr.GetInstances i &instArray  
+						if chkIsInstance.checked then  
+						(  
+							instArray.wirecolor = getRandomColor()   
+						)  
+						else  
+						(  
+							i.wirecolor = getRandomColor()   
+						)  
+					)  
+				)
+				else if radObject.state == 3 then  
+				(  
+					allGroups = for obj in objects where isGroupHead obj collect obj  
+					if allGroups.count == 0 then  
+					(  
+						messageBox "There are no groups in the scene."  
+					)  
+					else  
+					(  
+						fn changeInstancesRandom group =  
+						(  
+							local randomColor = getRandomColor()   
+							for i in group do  
+							(  
+								InstanceMgr.GetInstances i &instArray  
+								instArray.wirecolor = randomColor	
+							)
+						) 
+						fn changeWireColorRandom group =  
+						(  
+							local randomColor = getRandomColor()   
+							for i in group do  
+							(
+								i.wirecolor = randomColor  
+							)
+						)
+						
+						if chkIsInstance.checked then
+						(
+							for group in allGroups do  
+							(  
+								changeInstancesRandom group  
+							)
+						)
+						for group in allGroups do  
+						(  
+							changeWireColorRandom group  
+						)						
+					)  
+				) 
+				else if radObject.state == 4 then  
+				(  
+					for i in objects do  
+					(  
+						InstanceMgr.GetInstances i &instArray  
+						if chkIsInstance.checked then  
+						(  
+							instArray.wirecolor = getRandomColor()   
+						)  
+						else  
+						(  
+							i.wirecolor = getRandomColor()   
+						)  
+					)  
+				)  				
+				else if radObject.state == 5 then  
+				(  
+					if selection.count < 1 then messagebox "Please select at least one object"  
+					else  
+					(  
+						for i in selection do  
+						(  
+							InstanceMgr.GetInstances i &instArray  
+							if chkIsInstance.checked then  
+							(  
+								instArray.wirecolor = getRandomColor()   
+							)  
+							else  
+							(  
+								i.wirecolor = getRandomColor()   
+							)  
+						)  
+					)  
+				) 
+			)
 			redrawviews()   
 		)  
 		 
@@ -140,7 +176,7 @@ toolTip:"WireColor Pro | Advanced WireColor Tool"
 		 
 		-- Gradient WireColor               
 		 
-		group "Gradient WireColor"  
+		group "Gradient"  
 		(  
 			colorpicker cpGradient1 color:  [58, 122, 205] width:77 height:20 align:#left across:2  
 			colorpicker cpGradient2 color:  [139, 49, 165] width:77 height:20 align:#right  
@@ -167,7 +203,7 @@ toolTip:"WireColor Pro | Advanced WireColor Tool"
 
 		-- Realtime WireColor               
 
-		group "Realtime WireColor"  
+		group "Realtime"  
 		(  
 			colorpicker cp "" width:140 height:20 color:  [119, 95, 192] align:#center  
 		)  
@@ -189,7 +225,7 @@ toolTip:"WireColor Pro | Advanced WireColor Tool"
 				)  
 			)  
 		)  
-
+		
 		-- End               
 
 
@@ -255,7 +291,7 @@ toolTip:"WireColor Pro | Advanced WireColor Tool"
 
 		group "Erase Materials"  
 		(  
-			radiobuttons radErase labels:#( "Selected", "All" ) across:2  
+			radiobuttons radErase labels:#( "Selection", "All" ) across:2  
 			Button btnErase "Erase" tooltip:"Assign to objects" width:70 height:30 align:#right  
 		)  
 
@@ -293,5 +329,5 @@ toolTip:"WireColor Pro | Advanced WireColor Tool"
 	-- Rollout               
 
 	createDialog WireColorProDialog 180 365  
-	cui.RegisterDialogBar WireColorProDialog minSize:  [180, 365] maxSize:  [180, 360] style:#( #cui_floatable, #cui_dock_left, #cui_dock_right, #cui_handles )
+	cui.RegisterDialogBar WireColorProDialog minSize:  [180, 380] maxSize:  [180, 360] style:#( #cui_floatable, #cui_dock_left, #cui_dock_right, #cui_handles )
 )

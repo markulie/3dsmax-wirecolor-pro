@@ -14,11 +14,12 @@ Object color randomization, instance sync, gradients, and material control for 3
 - [Usage](#usage)
 - [Changelog](#changelog)
 - [License](#license)
+- [Download](#download)
 
 
 
 <p align="center">
-  <img width="192" height="400" src="https://raw.githubusercontent.com/markulie/WireColorPro/master/WireColor_Pro_Window.jpg">
+  <img width="192" height="415" src="https://raw.githubusercontent.com/markulie/WireColorPro/master/WireColor_Pro_Window.jpg">
 </p>
 
 ## Introduction
@@ -49,7 +50,7 @@ Object color randomization, instance sync, gradients, and material control for 3
 
 "WireColor Pro" revolutionizes the way 3D designers work with object colors and materials in Autodesk 3ds Max. By providing a comprehensive suite of tools for randomization, palette-based colorization, material conversion, batch material management, and instance color synchronization, this script empowers designers to achieve stunning visual results with greater efficiency and creative freedom. Whether working on architectural visualizations, product renderings, or animation projects, "WireColor Pro" is an indispensable asset that simplifies the process of color and material manipulation while enhancing the quality of the final output.
 
-<a href="https://www.youtube.com/watch?v=j5dhfQ13YUk" target="-blank">Tutorial</a> (Italian) by Marcello Pattarin
+<a href="https://www.youtube.com/watch?v=j5dhfQ13YUk" target="_blank">Tutorial</a> (Italian) by Marcello Pattarin
 
 <p align="center">
   <img width="650" height="180" src="https://github.com/markulie/WireColorPro/blob/master/WireColor_Pro_Gradient.jpg?raw=true">
@@ -72,54 +73,71 @@ Object color randomization, instance sync, gradients, and material control for 3
 ## Changelog
 
 ```md
+Version: 1.24 | August 24, 2023
+- Enhanced the color palette with the inclusion of two additions: "Toxic" and "Clay."
+- Implemented undo and redo capabilities
+- Introduced the ability to modify colors exclusively within shape objects.
+- Bug Fixes
+
 Version: 1.23 | August 10, 2023
 - Refactored Code
 - Enhanced Speed
 - Color Consistency Across Instances
 - Group-Based Color Customization
-- Bug Fixes
-- Rebranded as "WireColor Pro" due to the prior name "ProColor" being somewhat perplexing.
+- Rebranded as "WireColor Pro" due to the prior name "ProColor" being somewhat perplexing
 
 Version: 1.01 | October 21, 2022
 - Added Pastel Colors Palette  
 - Fixed Viewport's Auto Redraw
 - Cleaning Memory before initialization
-- Bug Fixes  
+- Bug Fixes
 
 Version: 0.8 | September 29, 2020
-- ProColor is now Macroscript  
-- Batch Converting Wirecolor to Material  
-- Bug Fixes  
+- ProColor is now Macroscript
+- Batch Converting Wirecolor to Material
+- Bug Fixes
   
 Version: 0.7 | March 27, 2016
 - Added Convert Wirecolor to Material Diffuse/BaseColor
-- Bug Fixes  
+- Bug Fixes
   
 Version: 0.6 | June 21, 2015
 - Improved Remove Materials from object
-- Removed useless gray wirecolor assignment  
+- Removed useless gray wirecolor assignment
   
 Version: 0.5 | April 19, 2015
-- Bug Fixes  
+- Bug Fixes
   
 Version: 0.4 | April 1, 2015
 - Added Remove Materials from object
-- Bug Fixes  
+- Bug Fixes
   
 Version: 0.3 | January 19, 2015
-- Bug Fixes  
+- Bug Fixes
   
 Version: 0.2 | January 2, 2015
-- Bug Fixes  
+- Bug Fixes
   
 Version: 0.1 | December 30, 2014
 - Initial Release
 
 ```
 
+## Thanks
+
+Nintendo
+
+Marcello Pattarin
+
+Sergey Gromoff
+
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE), which means you're free to use, modify, and distribute the scripts. However, please note that the scripts are provided as-is, and contributors are not responsible for any issues that may arise from their usage.
+
+## Download
+<a href="https://raw.githubusercontent.com/markulie/WireColorPro/master/markulie-WireColorProMacro.mcr" download>Download the latest version here</a>
 
 ---
 
