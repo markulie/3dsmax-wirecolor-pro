@@ -9,7 +9,7 @@ toolTip:"WireColor Pro | Advanced WireColor Tool"
 -- Version: 1.24
 -- Created: December 30, 2014
 -- Updated: August 24, 2023
--- Website: https://markulie.guthub.io
+-- Website: https://github.com/markulie
 -- Download: https://github.com/markulie/WireColorPro
 
 (  
