@@ -94,13 +94,13 @@ WireColor Pro is available in two formats to suit different workflows:
 ### Method 2: MaxScript (.ms) - Quick Access
 **Best for**: Testing, one-time use, or portable workflows without permanent installation
 
-1. Download [`WireColorPro.ms`](https://raw.githubusercontent.com/markulie/WireColorPro/master/WireColorPro.ms)
+1. Download [`markulie-WireColorPro.ms`](https://raw.githubusercontent.com/markulie/WireColorPro/master/markulie-WireColorPro.ms)
 2. **Drag and drop** the `.ms` file directly into any 3ds Max viewport
 3. The dialog opens instantly—no installation required!
 
 **Alternative Method**:
 - Go to **Scripting > Run Script** in the main menu
-- Browse and select `WireColorPro.ms`
+- Browse and select `markulie-WireColorPro.ms`
 - Click **Open**
 
 **Benefits**:
