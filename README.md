@@ -193,7 +193,7 @@ WireColor Pro is available in two formats to suit different workflows:
 ### Version 0.1 | December 30, 2014
 - Initial release
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Special thanks to:
 - **Nintendo**
@@ -231,7 +231,7 @@ Choose the version that best fits your workflow:
 
 | Format | Download Link | Best For |
 |--------|--------------|----------|
-| **MacroScript (.mcr) and MaxScript (.mcr) ** | [Zip archive](https://github.com/markulie/3dsmax-wirecolor-pro/raw/refs/heads/master/3dsmax-wirecolor-pro.zip) | Permanent installation, toolbar integration, hotkey assignment or drag and drop |
+| **MacroScript (.mcr) and MaxScript (.ms)** | [Zip archive](https://github.com/markulie/3dsmax-wirecolor-pro/raw/refs/heads/master/3dsmax-wirecolor-pro.zip) | Permanent installation, toolbar integration, hotkey assignment or drag and drop |
 
 
 **What's the difference?**
@@ -268,6 +268,6 @@ Your feedback helps make WireColor Pro better! If you have suggestions, question
 
 **Made with ♥ for Lilit**
 
-[⬆ Back to Top](#wirecolor-pro)
+[Back to Top](#wirecolor-pro)
 
 </div>
