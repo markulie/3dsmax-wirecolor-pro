@@ -231,7 +231,7 @@ Choose the version that best fits your workflow:
 
 | Format | Download Link | Best For |
 |--------|--------------|----------|
-| **MacroScript (.mcr) and MaxScript (.mcr) ** | [Download zip archive](https://raw.githubusercontent.com/markulie/WireColorPro/master/markulie-WireColorProMacro.mcr) | Permanent installation, toolbar integration, hotkey assignment or drag and drop |
+| **MacroScript (.mcr) and MaxScript (.mcr) ** | [Zip archive](https://github.com/markulie/3dsmax-wirecolor-pro/raw/refs/heads/master/3dsmax-wirecolor-pro.zip) | Permanent installation, toolbar integration, hotkey assignment or drag and drop |
 
 
 **What's the difference?**
