@@ -136,7 +136,7 @@ WireColor Pro is available in two formats to suit different workflows:
 
 ## 📝 Changelog
 
-### Version 1.33 | December 4, 2025
+### Version 1.34 | December 4, 2025
 - Complete code refactoring and optimization
 - Comprehensive error handling for all operations
 - Enhanced user feedback with success/error messages
@@ -199,7 +199,7 @@ Special thanks to:
 - **Nintendo**
 - **Marcello Pattarin**
 - **Sergey Gromoff**
-- **Lilit**
+- **Lil**
 
 ## 📄 License
 
@@ -225,7 +225,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 ## 📥 Download
 
-**Latest Release (v1.33)** - December 4, 2025
+**Latest Release (v1.34)** - December 4, 2025
 
 Choose the version that best fits your workflow:
 
@@ -266,7 +266,7 @@ Your feedback helps make WireColor Pro better! If you have suggestions, question
 
 <div align="center">
 
-**Made with ♥ for Lilit**
+**Made with love for Lil**
 
 [Back to Top](#wirecolor-pro)
 
