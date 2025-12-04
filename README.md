@@ -11,7 +11,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/markulie/WireColorPro?style=social)](https://github.com/markulie/WireColorPro/network/members)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Changelog](#-changelog) • [License](#-license)
+[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Changelog](#-changelog) • [License](#-license) • [Download](#-download)
 
 </div>
 
@@ -231,8 +231,8 @@ Choose the version that best fits your workflow:
 
 | Format | Download Link | Best For |
 |--------|--------------|----------|
-| **MacroScript (.mcr)** | [Download markulie-WireColorProMacro.mcr](https://raw.githubusercontent.com/markulie/WireColorPro/master/markulie-WireColorProMacro.mcr) | Permanent installation, toolbar integration, hotkey assignment |
-| **MaxScript (.ms)** | [Download markulie-WireColorPro.ms](https://raw.githubusercontent.com/markulie/WireColorPro/master/markulie-WireColorPro.ms) | Quick access, drag-and-drop, portable use |
+| **MacroScript (.mcr) and MaxScript (.mcr) ** | [Download zip archive](https://raw.githubusercontent.com/markulie/WireColorPro/master/markulie-WireColorProMacro.mcr) | Permanent installation, toolbar integration, hotkey assignment or drag and drop |
+
 
 **What's the difference?**
 - **.mcr (MacroScript)**: Integrates into 3ds Max UI permanently. Can be added to toolbars and assigned hotkeys.
