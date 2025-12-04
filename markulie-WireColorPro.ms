@@ -1,8 +1,3 @@
-macroScript WireColorProMacro
-category:"markulie"
-buttonText:"WireColor Pro"
-toolTip:"WireColor Pro | Advanced WireColor Tool"
-
 -- WireColor Pro
 -- Author: markulie
 -- Description: Advanced wireframe color management tool featuring intelligent randomization, instance synchronization, gradient application, and seamless material conversion for 3ds Max.
@@ -11,6 +6,7 @@ toolTip:"WireColor Pro | Advanced WireColor Tool"
 -- Updated: December 4, 2025
 -- Website: https://github.com/markulie
 -- Download: https://github.com/markulie/WireColorPro
+-- Installation: Drag and drop this file into 3ds Max viewport
 
 (
 	global WireColorProDialog
