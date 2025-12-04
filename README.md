@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![WireColor Pro Logo](https://raw.githubusercontent.com/markulie/WireColorPro/master/WireColor_Pro_Window.jpg)
+![WireColor Pro Logo](https://raw.githubusercontent.com/markulie/WireColorPro/master/WireColor_Pro_Window.png)
 
 **Advanced color management toolkit for Autodesk 3ds Max**
 
