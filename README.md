@@ -134,7 +134,7 @@ WireColor Pro is available in two formats to suit different workflows:
 
 ## 📝 Changelog
 
-### Version 1.34 | December 4, 2025
+### Version 1.35 | December 5, 2025
 - Complete code refactoring and optimization
 - Comprehensive error handling for all operations
 - Enhanced user feedback with success/error messages
@@ -142,6 +142,7 @@ WireColor Pro is available in two formats to suit different workflows:
 - Improved performance and reduced code redundancy
 - Added operation counters for material conversion
 - Special dedication added
+- Added MaxScript version 
 
 ### Version 1.24 | August 24, 2023
 - Added "Toxic" and "Clay" color palettes
@@ -223,7 +224,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 ## 📥 Download
 
-**Latest Release (v1.34)** - December 4, 2025
+**Latest Release (v1.35)** - December 5, 2025
 
 Choose the version that best fits your workflow:
 
