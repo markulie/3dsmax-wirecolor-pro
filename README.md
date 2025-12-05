@@ -19,11 +19,9 @@
 
 ## 📋 Overview
 
-**WireColor Pro** is a powerful open-source MaxScript tool that revolutionizes color workflow in Autodesk 3ds Max. Designed for 3D artists, designers, and technical artists, it provides intelligent randomization, instance synchronization, gradient mapping, and seamless material conversion—all in an intuitive interface.
+**WireColor Pro** (formerly ProColor) is a powerful open-source MaxScript tool that revolutionizes color workflow in Autodesk 3ds Max. Designed for 3D artists, designers, and technical artists, it provides intelligent randomization, instance synchronization, gradient mapping, and seamless material conversion—all in an intuitive interface.
 
 Whether you're organizing massive architectural scenes, managing game assets, or creating complex animations, WireColor Pro streamlines your viewport visualization and scene management workflow.
-
-> **10+ years of development** | **Trusted by 3D artists worldwide** | **Open source & free forever**
 
 <div align="center">
 
@@ -196,10 +194,10 @@ WireColor Pro is available in two formats to suit different workflows:
 ## Acknowledgments
 
 Special thanks to:
+- **Lil**
 - **Nintendo**
 - **Marcello Pattarin**
 - **Sergey Gromoff**
-- **Lil**
 
 ## 📄 License
 
