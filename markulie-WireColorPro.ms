@@ -1,9 +1,9 @@
 -- WireColor Pro
 -- Author: markulie
 -- Description: Advanced wireframe color management tool featuring intelligent randomization, instance synchronization, gradient application, and seamless material conversion for 3ds Max.
--- Version: 1.34
+-- Version: 1.35
 -- Created: December 30, 2014
--- Updated: December 4, 2025
+-- Updated: December 5, 2025
 -- Website: https://github.com/markulie
 -- Download: https://github.com/markulie/WireColorPro
 -- Installation: Drag and drop this file into 3ds Max viewport
@@ -14,7 +14,7 @@
 	
 	gc()
 	
-	rollout WireColorProDialog "WireColor Pro v1.34"
+	rollout WireColorProDialog "WireColor Pro v1.35"
 	(
 		-- Color Constants
 		local PASTEL_SATURATION = 120
@@ -29,7 +29,7 @@
 		
 		group "Object                   Color"
 		(
-			radiobuttons radObject labels:#("All Geometry", "All Shapes", "All Groups", "All Objects", "Selection") across:2
+			radiobuttons radObject labels:#("Geometries", "Shapes", "Groups", "All", "Selection") across:2
 			radiobuttons radColor labels:#("Pastel", "Gray", "Toxic", "Clay", "Random")
 			checkButton chkIsInstance "Instance" tooltip:"When enabled, it will maintain consistent colors across instances." height:30 align:#left across:2
 			button btnRandom "Randomize" tooltip:"Press to assign to objects" width:90 height:30 align:#right
@@ -118,17 +118,36 @@
 							(
 								if chkIsInstance.checked then
 								(
+									-- Track which instance sets have been processed
+									local processedInstances = #()
+									
+									-- First: Color all instance sets for objects in groups
 									for group in allGroups do
 									(
-										local randomColor = getRandomColor()
 										for i in group do
 										(
 											try
 											(
 												InstanceMgr.GetInstances i &instArray
-												instArray.wirecolor = randomColor
+												-- Check if this instance set was already processed
+												if findItem processedInstances instArray[1] == 0 then
+												(
+													local randomColor = getRandomColor()
+													instArray.wirecolor = randomColor
+													append processedInstances instArray[1]
+												)
 											)
 											catch()
+										)
+									)
+									
+									-- Second: Overwrite only objects IN groups with group color
+									for group in allGroups do
+									(
+										local randomColor = getRandomColor()
+										for i in group do
+										(
+											try (i.wirecolor = randomColor) catch()
 										)
 									)
 								)
